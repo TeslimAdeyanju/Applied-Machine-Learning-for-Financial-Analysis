@@ -23,7 +23,7 @@ I’m committed to **Learning in Public**—sharing detailed notes, real-world c
 
 ## 📘 Dive Deeper on My Notion Page
 
-For an in-depth look at my machine learning journey, visit my **[Notion Page](https://teslimuthmanadeyanju.notion.site/Machine-Learning-Zoom-Camp-31116d0d4208441fb340be96d14ca03c?pvs=4)**, where I document each skill, reflect on learning milestones, and provide additional resources. This page includes:
+For an in-depth look at my machine learning journey, visit my **[Notion Page](https://adeyanjuteslim.notion.site/Machine_Learning_Zoom-Camp_Note-1e5807ec79638155b830f80c069d162a)**, where I document each skill, reflect on learning milestones, and provide additional resources. This page includes:
 
 - **In-depth explanations** of machine learning concepts
 - **Personal reflections and milestones** throughout my journey
