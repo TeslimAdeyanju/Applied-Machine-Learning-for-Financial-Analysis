@@ -12,8 +12,7 @@ An applied machine learning portfolio built around real finance problems — pri
 
 ---
 
-[![Notion](https://img.shields.io/badge/Notion-Full%20Write--ups-000000?logo=notion&logoColor=white)](https://adeyanjuteslim.notion.site/ML-02-Machine-Learning-Bookcamp-3e5807ec7963813b8660f2df94aa93d4)
-On Notion, I document a full follow-up understanding of what machine learning is and why it applies to financial analysis — the theory, the reasoning, and the "why" behind every module in this repo.
+On my **[Notion page](https://adeyanjuteslim.notion.site/ML-02-Machine-Learning-Bookcamp-3e5807ec7963813b8660f2df94aa93d4)**, I document a full follow-up understanding of each module — what the technique is, why it works, and why it's applicable to financial analysis specifically. It's where the theory, the reasoning, and the worked examples behind this repo's code all live.
 
 ---
 
