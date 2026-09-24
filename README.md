@@ -10,8 +10,10 @@ An applied machine learning portfolio built around real finance problems — pri
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![AWS](https://img.shields.io/badge/AWS-Elastic%20Beanstalk-FF9900?logo=amazonaws&logoColor=white)](https://aws.amazon.com/elasticbeanstalk/)
 
+---
+
 [![Notion](https://img.shields.io/badge/Notion-Full%20Write--ups-000000?logo=notion&logoColor=white)](https://adeyanjuteslim.notion.site/ML-02-Machine-Learning-Bookcamp-3e5807ec7963813b8660f2df94aa93d4)
-Extended notes, extra experiments, and reflections behind every module in this repo.
+On Notion, I document a full follow-up understanding of what machine learning is and why it applies to financial analysis — the theory, the reasoning, and the "why" behind every module in this repo.
 
 ---
 
