@@ -15,7 +15,7 @@ A hands-on machine learning portfolio built while completing **DataTalks.Club's 
 
 I'm following the [DataTalks.Club ML Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) curriculum — tracked here via my own fork, [Fork8-machine-learning-zoomcamp](https://github.com/UthmanAdeyanju/Fork8-machine-learning-zoomcamp) — but instead of using the course's stock datasets, each module is reworked around a financial data problem: predicting asset/loan values, scoring credit risk, flagging churn, and deploying the resulting models as services.
 
-Detailed write-ups, reflections, and extra explanations for each module live on my **[Notion notes page](https://adeyanjuteslim.notion.site/Machine_Learning_Zoom-Camp_Note-1e5807ec79638155b830f80c069d162a)**. This repo is the code; Notion is the commentary.
+Detailed write-ups, reflections, and extra explanations for each module live on my **[Notion notes page](https://adeyanjuteslim.notion.site/ML-02-Machine-Learning-Bookcamp-3e5807ec7963813b8660f2df94aa93d4)**. This repo is the code; Notion is the commentary.
 
 ## Modules
 
