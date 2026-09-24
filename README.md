@@ -1,6 +1,6 @@
 # Applied Machine Learning for Financial Analysis
 
-A hands-on machine learning portfolio built while completing **DataTalks.Club's ML Zoomcamp**, with every project reframed around finance use cases — price prediction, credit risk, churn, and fraud-style classification problems. This repo documents the code, notes, and homework solutions from each module, applied through a financial-analysis lens rather than the course's generic datasets.
+An applied machine learning portfolio built around real finance problems — price prediction, credit risk scoring, churn classification, and shipping the resulting models as deployed services. I built this on the structured foundation of DataTalks.Club's ML Zoomcamp, then took each project further: extra analysis, deeper write-ups, and a consistent financial-analysis framing across every module.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
@@ -9,15 +9,17 @@ A hands-on machine learning portfolio built while completing **DataTalks.Club's 
 [![FastAPI](https://img.shields.io/badge/FastAPI-Deployment-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
+**📘 [Read the full write-ups on Notion](https://adeyanjuteslim.notion.site/ML-02-Machine-Learning-Bookcamp-3e5807ec7963813b8660f2df94aa93d4)** — extended notes, extra experiments, and reflections behind every module in this repo.
+
 ---
 
-## About
+## About This Project
 
-I'm following the [DataTalks.Club ML Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) curriculum — tracked here via my own fork, [Fork8-machine-learning-zoomcamp](https://github.com/UthmanAdeyanju/Fork8-machine-learning-zoomcamp) — but instead of using the course's stock datasets, each module is reworked around a financial data problem: predicting asset/loan values, scoring credit risk, flagging churn, and deploying the resulting models as services.
+Each module here tackles a finance-specific problem instead of a generic dataset: predicting asset and loan values, scoring credit risk, flagging customer churn, and packaging the resulting models as deployable services with FastAPI and Docker. The code, homework solutions, and datasets for each are in the numbered folders below; the reasoning, extra analysis, and lessons learned are written up on my [Notion page](https://adeyanjuteslim.notion.site/ML-02-Machine-Learning-Bookcamp-3e5807ec7963813b8660f2df94aa93d4).
 
-Detailed write-ups, reflections, and extra explanations for each module live on my **[Notion notes page](https://adeyanjuteslim.notion.site/ML-02-Machine-Learning-Bookcamp-3e5807ec7963813b8660f2df94aa93d4)**. This repo is the code; Notion is the commentary.
+I built the ML foundation for this through DataTalks.Club's [ML Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) (my working fork: [Fork8-machine-learning-zoomcamp](https://github.com/UthmanAdeyanju/Fork8-machine-learning-zoomcamp)), then expanded on it — the finance framing, the extra notebooks, and the deployment work are mine.
 
-## Modules
+## Projects
 
 | # | Module | Focus | Status |
 |---|--------|-------|--------|
@@ -39,10 +41,6 @@ Each module folder contains a numbered lecture-note notebook, the homework solut
 - **Data:** pandas, NumPy
 - **Deployment:** FastAPI, Docker, Pipenv
 - **Language:** Python 3.10+
-
-## Learning in Public
-
-This repository is part of **Learning in Public** — sharing working code, notes, and financial ML case studies as I build them, powered by [DataTalks.Club](https://datatalks.club/). If you're also taking the course, join `#course-ml-zoomcamp` on the [DataTalks.Club Slack](https://datatalks.club/slack.html).
 
 ## Connect
 
