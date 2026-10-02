@@ -1,0 +1,8 @@
+[project]
+name = "13-applied-machine-learning-for-financial-analysis"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "seaborn>=0.13.2",
+]
