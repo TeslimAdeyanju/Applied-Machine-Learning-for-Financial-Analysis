@@ -23,13 +23,13 @@ The work follows the [DataTalks.Club Machine Learning Zoomcamp](https://github.c
 
 | Module | Repository content | Core competency |
 | --- | --- | --- |
-| [1. Introduction](1-introduction_to_machine-learning/) | Notebooks and sample datasets | Problem definition, initial exploration and CRISP-DM |
-| [2. Regression](2-machine_learning_for_regression/) | Regression notebooks and data | Linear regression, transformations, regularisation and validation |
-| [3. Classification](3-machine_learning_for_classification/) | Classification notebooks | Logistic regression, encoding, feature interpretation |
-| [4. Evaluation](4-evaluation_metrics_for_classification/) | Evaluation notebook | Precision, recall, ROC AUC, validation and thresholds |
-| [5. Deployment](5-machine_learning_deployment/) | Flask service, training code, test client, Dockerfile and saved model | Model packaging and HTTP inference |
-| [6. Decision Trees and Ensembles](6-Decision_trees_and_ensemble_learning/) | Ensemble-learning notebook and data | Tree models, random forests and boosting |
-| [7. Neural Networks](7-neural_networks_and_deep_learning/) | Deep learning notebook and images | Neural networks and image modelling |
+| [1. Introduction](1_introduction_to_machine_learning/) | Notebooks and sample datasets | Problem definition, initial exploration and CRISP-DM |
+| [2. Regression](2_machine_learning_for_regression/) | Regression notebooks and data | Linear regression, transformations, regularisation and validation |
+| [3. Classification](3_machine_learning_for_classification/) | Classification notebooks | Logistic regression, encoding, feature interpretation |
+| [4. Evaluation](4_evaluation_metrics_for_classification/) | Evaluation notebook | Precision, recall, ROC AUC, validation and thresholds |
+| [5. Deployment](5_machine_learning_deployment/) | Flask service, training code, test client, Dockerfile and saved model | Model packaging and HTTP inference |
+| [6. Decision Trees and Ensembles](6_decision_trees_and_ensemble_learning/) | Ensemble-learning notebook and data | Tree models, random forests and boosting |
+| [7. Neural Networks](7_neural_networks_and_deep_learning/) | Deep learning notebook and images | Neural networks and image modelling |
 | 8. Serverless deep learning | No implemented module directory | Future |
 | 9. Kubernetes and model serving | No implemented module directory | Future |
 
@@ -49,9 +49,9 @@ flowchart LR
 
 ## Selected Implementation: Churn Classification Service
 
-The fifth module contains `train.py`, `predict.py`, `predict-test.py`, a saved model file and a Dockerfile. The Flask endpoint accepts JSON customer attributes and responds with a churn probability and a binary threshold result.
+The fifth module contains `train.py`, `predict.py`, `predict_test.py`, a saved model file and a Dockerfile. The Flask endpoint accepts JSON customer attributes and responds with a churn probability and a binary threshold result.
 
-The inference script uses the model file `model_C=1.0.bin` relative to the working directory and exposes `POST /predict` on port 9696. This demonstrates a deployable design but is **not proof that a live service is currently hosted or monitored**.
+The inference script uses the model file `model_c_1_0.bin` relative to the working directory and exposes `POST /predict` on port 9696. This demonstrates a deployable design but is **not proof that a live service is currently hosted or monitored**.
 
 ```bash
 cd 5-machine_learning_deployment
@@ -86,18 +86,18 @@ A model should be assessed against an appropriate baseline and a genuinely held-
 ## Repository Structure
 
 ```text
-1-introduction_to_machine-learning/
-2-machine_learning_for_regression/
-3-machine_learning_for_classification/
-4-evaluation_metrics_for_classification/
-5-machine_learning_deployment/
-6-Decision_trees_and_ensemble_learning/
-7-neural_networks_and_deep_learning/
+1_introduction_to_machine_learning/
+2_machine_learning_for_regression/
+3_machine_learning_for_classification/
+4_evaluation_metrics_for_classification/
+5_machine_learning_deployment/
+6_decision_trees_and_ensemble_learning/
+7_neural_networks_and_deep_learning/
 pyproject.toml
 uv.lock
 README.md
 docs/
-    readme-history.md
+    readme_history.md
 ```
 
 ## Limitations and Next Steps
@@ -118,4 +118,4 @@ docs/
 **Teslim Adeyanju**  
 [Portfolio](https://adeyanjuteslim.co.uk) | [LinkedIn](https://www.linkedin.com/in/adeyanjuteslimuthman)
 
-[Prior README](docs/readme-history.md)
+[Prior README](docs/readme_history.md)
